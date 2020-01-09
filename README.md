@@ -10,7 +10,7 @@ InjectManager.inject(this);
 ```
 // 注入布局
 @ContentView(R.layout.activity_main)
-public class MainActivity extends BaseIOCActivity {
+public class MainActivity extends BaseActivity {
 
     // 可以被private修饰
     @InjectView(R.id.tv)
